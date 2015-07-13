@@ -22,3 +22,23 @@ function square_equation() {
         }
     }
 }
+function fib() {
+    var n=10;
+    var fib1 = 1;
+    var fib2 = 1;
+    for ( var i= 0; i<n; i++) {
+        if (i == 0 || i == 1 ) {
+            console.log(1);
+            alert(1);
+             }
+        else {
+            var fib_sum = fib2 + fib1;
+            fib1 = fib2;
+            fib2 = fib_sum;
+            console.log(fib_sum);
+            alert(fib_sum);
+        }
+    }
+}
+
+
